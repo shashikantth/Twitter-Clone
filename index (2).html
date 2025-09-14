@@ -1,0 +1,403 @@
+<!DOCTYPE> 
+<html>
+<head>
+  <title>Twitter</title>
+  <link type="text/css" rel="stylesheet" href="reset.css">
+  <link type="text/css" rel="stylesheet" href="application.css">
+   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="header_full">
+  <div class="header_container">
+
+    <div class= "header_left">
+      <ul class="navigation_left">
+        <li><i class="fa fa-home"></i>  Home</li>
+        <li><i class="fa fa-bell"></i>  Notifications</li>
+        <li><i class="fa fa-plus"></i>  Discover</li>
+        <li><i class="fa fa-user"></i>  Me</li>
+      </ul>
+    </div>  
+
+    <img src="images/twitter.png" class="twitter_logo">
+
+    <div class= "header_right">
+      <form class="header_search" action="/search">
+      <input class="search_input" type="text" placeholder="Search">
+      <button type="submit" id="Submit"> <i class="fa fa-search"></i> </button>
+      </form>
+
+      <ul class="navigation_right">
+        <li class="icon_messages"><i class="fa fa-envelope"></i></li>
+        <li class="icon_settings"><i class="fa fa-cog"></i></li>
+        <li class="icon_compose"><i class="fa fa-pencil-square-o"></i></li>
+      </ul>
+    </div> 
+
+  </div>  
+</div>
+
+
+<div class="page_outer">
+  <div class= "page_container">
+    <div class= "profile_container">
+
+      <div class= "top_block">
+        <div class="mini_profile">
+          <img src="images/user.jpg" class="user_photo">
+          <h3 class="user_name">Tiffanie Chia</h3> 
+          <h4 class="twitter_name">@tiffaniechia</h4> 
+        </div>
+        <div class="mini_profile_stats">
+          <div class="stats_title">
+            <div>TWEETS</div>
+            <div>FOLLOWING</div>
+            <div>FOLLOWERS</div>
+          </div>
+          <div class="stats_figures">
+            <div>1,326</div>
+            <div>147</div>
+            <div>215</div>
+          </div>
+        </div>
+        <div class="quick_tweet_box">
+          <form class="new_tweet_container" action="/search">
+            <input class="new_tweet_input" type="text" placeholder=" Compose New Tweet...">
+          </form>
+          <div class="hidden_buttons">
+            <ul> 
+              <li> <i class="fa fa-camera"></i> </li>
+              <li> <i class="fa fa-map-marker"></i> </li>
+              <li class ="characters"> 140 </li>
+              <li class ="tweet_button"> <i class="fa fa-pencil-square-o"></i> Tweet</li>
+            </ul>
+          </div>
+        </div>
+      </div>  
+
+      <div class= "second_block">
+        <div class="second_block_title">
+          <h2>Who to follow </h2>
+        </div>
+          <div class="second_block_recommendations">
+            <div class="second_block_recommendations_rows"> 
+              <div class="icon_left">
+                <img src="images/egg.png" class="egg_img">
+              </div>
+              <div class="info_right">
+                <h3 class="info_right_name">Makers Academy</h3>
+                <h3 class="info_right_user">@makersacademy</h3>
+                <h2 class="follow_button"> <i class="fa fa-plus-circle"></i> Follow</h2>
+              </div>   
+            </div>
+
+            <div class="second_block_recommendations_rows"> 
+              <div class="icon_left">
+                <img src="images/egg.png" class="egg_img">
+              </div>
+              <div class="info_right">
+                <h3 class="info_right_name">Chuck Norris</h3>
+                <h3 class="info_right_user">@youcanttouchthis</h3>
+                <h2 class="follow_button"> <i class="fa fa-plus-circle"></i> Follow</h2>
+              </div>   
+            </div>
+
+            <div class="second_block_recommendations_rows"> 
+              <div class="icon_left">
+                <img src="images/egg.png" class="egg_img">
+              </div>
+              <div class="info_right">
+                <h3 class="info_right_name">Simon's Cat</h3>
+                <h3 class="info_right_user">@feedmenow</h3>
+                <h2 class="follow_button"> <i class="fa fa-plus-circle"></i> Follow</h2>
+              </div>   
+            </div>
+
+          </div>
+          <div class="second_block_footer">
+            <h3>Popular accounts . Find Friends</h3>
+          </div>
+      </div>  
+
+      <div class= "third_block"> 
+        <div class="third_block_title">
+          <h2>Worldwide Trends </h2>
+          <h3>#trend one one one</h3>
+          <h3>#trend two two two two</h3>
+          <h3>#trend three</h3>
+          <h3>#trend four</h3>
+          <h3>#trend five five five</h3>
+          <h3>#trend six</h3>
+          <h3>#trend seven seven</h3>
+          <h3>#trend eight</h3>
+          <h3>#trend nine</h3>
+          <h3>#trend ten ten ten </h3>
+        </div>
+      </div>
+
+      <div class= "fourth_block">
+        <h3> 2014 Twitter   About   Help   Terms   Privacy   Cookies   Ads info   Brand   Blog   Status   Apps   Jobs   Advertise   Businesses   Media   Developers</h3>
+      </div> 
+
+    </div>
+
+    <div class= "tweet_newsfeed_container">
+      <div class= "tweet_newsfeed_header">
+        <h2>Tweets</h2>
+      </div> 
+        <div class= "tweet_newsfeed_stream">
+          <div class="tweet_newsfeed_stream_rows_wrapper">
+            <div class="tweet_newsfeed_stream_rows"> 
+              <div class="icon"> 
+                <img src="images/egg.png" class="egg_img"> 
+              </div>
+                <div class="information">
+                  <div class="top_row">
+                    <h4 class ="tweet_newsfeed_stream_rows_title">Tech in Asia</h4> 
+                    <h3 class = "tweet_newsfeed_stream_rows_title_info"> @techinasia . Apr 2</h3>
+                  </div>
+                  <div class="second_row">
+                    <h3>THE ONLY PERSON WHO EVEN CALLS IS TONY AND HE'S LIKE "OH HAY, LET'S DO SCIENCE!" AND THEN HE JUST WHINES ABOUT HIS AWESOME LIFE.</h3>
+                  </div>
+                  <div class="third_row">
+                    <div class="expand_action_left">
+                      <h5>Expand</h5>
+                    </div>  
+                    <div class="expand_action_right">
+                      <ul>
+                        <li> <i class="fa fa-reply"></i> Reply</li>
+                        <li> <i class="fa fa-retweet"></i> Retweet</li>
+                        <li> <i class="fa fa-star-o"></i> Favourite</li>
+                        <li><i class="fa fa-ellipsis-h"></i> More</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div> 
+
+          <div class="tweet_newsfeed_stream_rows_wrapper">
+            <div class="tweet_newsfeed_stream_rows"> 
+              <div class="icon"> 
+                <img src="images/egg.png" class="egg_img"> 
+              </div>
+                <div class="information">
+                  <div class="top_row">
+                    <h4 class ="tweet_newsfeed_stream_rows_title">Tech in Asia</h4> 
+                    <h3 class = "tweet_newsfeed_stream_rows_title_info"> @techinasia . Apr 2</h3>
+                  </div>
+                  <div class="second_row">
+                    <h3>THE ONLY PERSON WHO EVEN CALLS IS TONY AND HE'S LIKE "OH HAY, LET'S DO SCIENCE!" AND THEN HE JUST WHINES ABOUT HIS AWESOME LIFE.</h3>
+                  </div>
+                  <div class="third_row">
+                    <div class="expand_action_left">
+                      <h5>Expand</h5>
+                    </div>  
+                    <div class="expand_action_right">
+                      <ul>
+                        <li> <i class="fa fa-reply"></i> Reply</li>
+                        <li> <i class="fa fa-retweet"></i> Retweet</li>
+                        <li> <i class="fa fa-star-o"></i> Favourite</li>
+                        <li><i class="fa fa-ellipsis-h"></i> More</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div> 
+
+          <div class="tweet_newsfeed_stream_rows_wrapper">
+            <div class="tweet_newsfeed_stream_rows"> 
+              <div class="icon"> 
+                <img src="images/egg.png" class="egg_img"> 
+              </div>
+                <div class="information">
+                  <div class="top_row">
+                    <h4 class ="tweet_newsfeed_stream_rows_title">Tech in Asia</h4> 
+                    <h3 class = "tweet_newsfeed_stream_rows_title_info"> @techinasia . Apr 2</h3>
+                  </div>
+                  <div class="second_row">
+                    <h3>THE ONLY PERSON WHO EVEN CALLS IS TONY AND HE'S LIKE "OH HAY, LET'S DO SCIENCE!" AND THEN HE JUST WHINES ABOUT HIS AWESOME LIFE.</h3>
+                  </div>
+                  <div class="third_row">
+                    <div class="expand_action_left">
+                      <h5>Expand</h5>
+                    </div>  
+                    <div class="expand_action_right">
+                      <ul>
+                        <li> <i class="fa fa-reply"></i> Reply</li>
+                        <li> <i class="fa fa-retweet"></i> Retweet</li>
+                        <li> <i class="fa fa-star-o"></i> Favourite</li>
+                        <li><i class="fa fa-ellipsis-h"></i> More</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div> 
+
+          <div class="tweet_newsfeed_stream_rows_wrapper">
+            <div class="tweet_newsfeed_stream_rows"> 
+              <div class="icon"> 
+                <img src="images/egg.png" class="egg_img"> 
+              </div>
+                <div class="information">
+                  <div class="top_row">
+                    <h4 class ="tweet_newsfeed_stream_rows_title">Tech in Asia</h4> 
+                    <h3 class = "tweet_newsfeed_stream_rows_title_info"> @techinasia . Apr 2</h3>
+                  </div>
+                  <div class="second_row">
+                    <h3>THE ONLY PERSON WHO EVEN CALLS IS TONY AND HE'S LIKE "OH HAY, LET'S DO SCIENCE!" AND THEN HE JUST WHINES ABOUT HIS AWESOME LIFE.</h3>
+                  </div>
+                  <div class="third_row">
+                    <div class="expand_action_left">
+                      <h5>Expand</h5>
+                    </div>  
+                    <div class="expand_action_right">
+                      <ul>
+                        <li> <i class="fa fa-reply"></i> Reply</li>
+                        <li> <i class="fa fa-retweet"></i> Retweet</li>
+                        <li> <i class="fa fa-star-o"></i> Favourite</li>
+                        <li><i class="fa fa-ellipsis-h"></i> More</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div> 
+
+          <div class="tweet_newsfeed_stream_rows_wrapper">
+            <div class="tweet_newsfeed_stream_rows"> 
+              <div class="icon"> 
+                <img src="images/egg.png" class="egg_img"> 
+              </div>
+                <div class="information">
+                  <div class="top_row">
+                    <h4 class ="tweet_newsfeed_stream_rows_title">Tech in Asia</h4> 
+                    <h3 class = "tweet_newsfeed_stream_rows_title_info"> @techinasia . Apr 2</h3>
+                  </div>
+                  <div class="second_row">
+                    <h3>THE ONLY PERSON WHO EVEN CALLS IS TONY AND HE'S LIKE "OH HAY, LET'S DO SCIENCE!" AND THEN HE JUST WHINES ABOUT HIS AWESOME LIFE.</h3>
+                  </div>
+                  <div class="third_row">
+                    <div class="expand_action_left">
+                      <h5>Expand</h5>
+                    </div>  
+                    <div class="expand_action_right">
+                      <ul>
+                        <li> <i class="fa fa-reply"></i> Reply</li>
+                        <li> <i class="fa fa-retweet"></i> Retweet</li>
+                        <li> <i class="fa fa-star-o"></i> Favourite</li>
+                        <li><i class="fa fa-ellipsis-h"></i> More</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div> 
+
+          <div class="tweet_newsfeed_stream_rows_wrapper">
+            <div class="tweet_newsfeed_stream_rows"> 
+              <div class="icon"> 
+                <img src="images/egg.png" class="egg_img"> 
+              </div>
+                <div class="information">
+                  <div class="top_row">
+                    <h4 class ="tweet_newsfeed_stream_rows_title">Tech in Asia</h4> 
+                    <h3 class = "tweet_newsfeed_stream_rows_title_info"> @techinasia . Apr 2</h3>
+                  </div>
+                  <div class="second_row">
+                    <h3>THE ONLY PERSON WHO EVEN CALLS IS TONY AND HE'S LIKE "OH HAY, LET'S DO SCIENCE!" AND THEN HE JUST WHINES ABOUT HIS AWESOME LIFE.</h3>
+                  </div>
+                  <div class="third_row">
+                    <div class="expand_action_left">
+                      <h5>Expand</h5>
+                    </div>  
+                    <div class="expand_action_right">
+                      <ul>
+                        <li> <i class="fa fa-reply"></i> Reply</li>
+                        <li> <i class="fa fa-retweet"></i> Retweet</li>
+                        <li> <i class="fa fa-star-o"></i> Favourite</li>
+                        <li><i class="fa fa-ellipsis-h"></i> More</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div> 
+
+          <div class="tweet_newsfeed_stream_rows_wrapper">
+            <div class="tweet_newsfeed_stream_rows"> 
+              <div class="icon"> 
+                <img src="images/egg.png" class="egg_img"> 
+              </div>
+                <div class="information">
+                  <div class="top_row">
+                    <h4 class ="tweet_newsfeed_stream_rows_title">Tech in Asia</h4> 
+                    <h3 class = "tweet_newsfeed_stream_rows_title_info"> @techinasia . Apr 2</h3>
+                  </div>
+                  <div class="second_row">
+                    <h3>THE ONLY PERSON WHO EVEN CALLS IS TONY AND HE'S LIKE "OH HAY, LET'S DO SCIENCE!" AND THEN HE JUST WHINES ABOUT HIS AWESOME LIFE.</h3>
+                  </div>
+                  <div class="third_row">
+                    <div class="expand_action_left">
+                      <h5>Expand</h5>
+                    </div>  
+                    <div class="expand_action_right">
+                      <ul>
+                        <li> <i class="fa fa-reply"></i> Reply</li>
+                        <li> <i class="fa fa-retweet"></i> Retweet</li>
+                        <li> <i class="fa fa-star-o"></i> Favourite</li>
+                        <li><i class="fa fa-ellipsis-h"></i> More</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div> 
+
+          <div class="tweet_newsfeed_stream_rows_wrapper">
+            <div class="tweet_newsfeed_stream_rows"> 
+              <div class="icon"> 
+                <img src="images/egg.png" class="egg_img"> 
+              </div>
+                <div class="information">
+                  <div class="top_row">
+                    <h4 class ="tweet_newsfeed_stream_rows_title">Tech in Asia</h4> 
+                    <h3 class = "tweet_newsfeed_stream_rows_title_info"> @techinasia . Apr 2</h3>
+                  </div>
+                  <div class="second_row">
+                    <h3>THE ONLY PERSON WHO EVEN CALLS IS TONY AND HE'S LIKE "OH HAY, LET'S DO SCIENCE!" AND THEN HE JUST WHINES ABOUT HIS AWESOME LIFE.</h3>
+                  </div>
+                  <div class="third_row">
+                    <div class="expand_action_left">
+                      <h5>Expand</h5>
+                    </div>  
+                    <div class="expand_action_right">
+                      <ul>
+                        <li> <i class="fa fa-reply"></i> Reply</li>
+                        <li> <i class="fa fa-retweet"></i> Retweet</li>
+                        <li> <i class="fa fa-star-o"></i> Favourite</li>
+                        <li><i class="fa fa-ellipsis-h"></i> More</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div> 
+
+        </div> 
+    </div>
+    <br clear='all'>
+  
+  </div> 
+</div>
+
+
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="javascript.js"></script>
+
+</body>
+</html>
